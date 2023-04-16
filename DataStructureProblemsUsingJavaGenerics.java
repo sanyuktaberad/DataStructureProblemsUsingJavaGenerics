@@ -12,9 +12,9 @@ public class DataStructureProblemsUsingJavaGenerics {
 		linkedList.add(70);
 
 		System.out.println("Elements in the list are =>" + linkedList);
-		
-		linkedList.pop();
+
+		linkedList.removeLast();
 		System.out.println("Elements in the list after popping are =>" + linkedList);
-	
+
 	}
 }
