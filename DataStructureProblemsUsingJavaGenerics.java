@@ -8,10 +8,13 @@ public class DataStructureProblemsUsingJavaGenerics {
 		LinkedList linkedList = new LinkedList();
 
 		linkedList.add(56);
+		linkedList.add(30);
 		linkedList.add(70);
-		linkedList.set(2, 30);
 
 		System.out.println("Elements in the list are =>" + linkedList);
+		
+		linkedList.pop();
+		System.out.println("Elements in the list after popping are =>" + linkedList);
 	
 	}
 }
